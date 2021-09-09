@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import csv
 import os
+import statistics
 
 def getPath(folder,file):
     return os.path.join(folder,file)
@@ -27,3 +28,6 @@ def makeDF(dic):
 
 def formatThis(df,col,how):
     return df[col].map(how.format)
+
+def mergedDF(df1,df2,side,col):
+    return pd.merge(df1, df2, how=side, on=[col,col])
