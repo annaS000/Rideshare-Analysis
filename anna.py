@@ -26,6 +26,9 @@ def getPercent(x,y):
 def makeDF(dic):
     return pd.DataFrame(dic)
 
+def groupThis(df,group):
+    return df.groupby([group])
+
 def formatThis(df,col,how):
     return df[col].map(how.format)
 
