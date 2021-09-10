@@ -7,6 +7,7 @@ import pandas as pd
 import csv
 import os
 import statistics
+import scipy.stats as sts
 
 def getPath(folder,file):
     return os.path.join(folder,file)
