@@ -8,15 +8,21 @@
 ## **Code**
 [Link](https://github.com/annaS000/Rideshare-Analysis/blob/main/PyBer_Challenge.ipynb) to Python code used to perform analysis.
 
+> All of my functions and dependencies used are stored in the file [anna.py](https://github.com/annaS000/Rideshare-Analysis/blob/main/anna.py)
+
 ---
 
 ## **Results**
+### **PyBer Fare Summary**
 ![ride date](https://raw.githubusercontent.com/annaS000/Rideshare-Analysis/main/Resources/ride_data_by_city_type.png)
 > Here we can see the differences in ride-sharing data for Rural, Suburban, and Urban areas. **Urban areas** have the most rides, drivers, and the lowest rates for ride fares. **Rural areas** have the least amount of rides and drivers and the most expensive ride fares.  **Suburban areas** don't have as many rides or drivers as Urban places but are more successful than Rural places. and has the mid-range price out of the three types for ride fares. In regards to the **Total Fares**, Urban cities received about double the amount of fares compared to Suburban cities and almost 10 times more than Rural cities.
 
+
+### **Multiple-line Chart of Total Fare by City Type**
 ![data by week](https://raw.githubusercontent.com/annaS000/Rideshare-Analysis/main/analysis/PyBer_fare_summary.png)
 > This line graph displays the total fares per week for each city between the months of January and April. **Urban areas** saw highs and lows in Total Fares during the month of March. **Suburban** and **Rural areas** did not experience many changes throughout the given months except for a few subtle peaks and dips. We can see all city types had a spike in Total Fare towards the end of February.
 
+### **A Closer Look at February**
 ![times for feb](https://raw.githubusercontent.com/annaS000/Rideshare-Analysis/main/analysis/Feb_summary.png)
 > To investigate the shared peak in February, I created another chart to see what specific days had more activity. Here, we can see that around February 17th-19th there were higher totals in fares, most prominently affecting the numbers for Suburban and Urban cities. In 2019, February 18th was the third Monday which is President's Day. Since it was a holiday, more people may have had off from work or school. This could have allowed them to be able to travel on those days, which can explain the increase in total fares during that time.
 
@@ -25,6 +31,7 @@
 
 ## **Summary**
 
+### **Conclusions and Recommendations**
 After reviewing the information that was extracted from the ride-sharing data, a few things can be considered:
 1. **Urban areas** are, usually, densely populated so the demand for public transportation is higher than other areas which explains the difference in numbers of drivers/rides and total fare compared to the Suburbs and Rural cities. **Suburban areas** had less rides and drivers than Urban areas but also more than Rural areas. These areas may have more schools and 9-5 jobs which means they can be more affected by federal holidays such as President's Day. Taking note of holidays can be beneficial to the company because these will be days more people are expected to travel. Perhaps there can be sales or promotions on these days to get more people to use the service.
     <br/>
