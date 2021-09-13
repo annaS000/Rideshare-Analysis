@@ -38,4 +38,4 @@ After reviewing the information that was extracted from the ride-sharing data, a
 
 ## **References**
 
-[Click to view citation]()
+[Click to view citation](https://github.com/annaS000/Rideshare-Analysis/blob/main/PyBer_References.pdf)
